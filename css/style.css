@@ -1,43 +1,14 @@
 header{
-    /* height: 100px; */
     background-color: black;
-}
-img{
-    width: 200px;
-}
-.col{
-    height: 50px;
-    background-color: blue;
 }
 .jumbotron{
     background-color: green;
 }
 .jumbotron .col{
-    width: 400px;
-    height: 300px;
-}
-.portfolio .col-12{
-    border: 1px solid white;
-    height: 300px;
-    background-color: blanchedalmond;
 }
 .about{
     background-color: aquamarine;
 }
-.about .col,
-.contact .col{
-    background-color: green;
-    height: 400px;
-    width: 400px;
-}
-.contact .col{
-    background-color: gray;
-    height: 400px;
-    width: 400px;
-}
 footer{
     background-color: black;
-}
-footer .col{
-    width: 400px;
 }
