@@ -14,11 +14,6 @@ li{
 header{
     background-color: #2c3f4f;
 }
-.my-list .my-ling:hover{
-    color: #1abc98;
-}
-
-/* MAIN */
 .my-input{
     display: block;
 }
@@ -26,14 +21,35 @@ header{
     border: none;
     text-decoration: none;
 }
+/* MAIN */
+.star > span{
+    vertical-align: middle;
+}
+.dash{
+    font-size: 5rem;
+}
+
+/* jumbotron */
 #jumbotron{
     background-color: #1abc98;
 }
+.avatar{
+    width: 300px;
+}
+
+/* portfolio */
+#portfolio{
+    scroll-margin: 50px;
+}
+/* about */
 #about{
     background-color: #1abc98;
+    scroll-margin: 50px;
 }
-footer{
-    background-color: #2c3f4f;
+
+/* contact */
+#contact{
+    scroll-margin: 50px;
 }
 .submit{
     background-color:#1abc98;
@@ -44,11 +60,14 @@ footer{
     background-color:#1abc35;
 }
 
-
 /* FOOTER */
+footer{
+    background-color: #2c3f4f;
+}
 .start{
     color: #1abc98;
 }
+
 
 
 
