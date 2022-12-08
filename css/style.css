@@ -1,34 +1,32 @@
 
 /* GENERAL */
-ul{
-    text-decoration: none;
-}
-li{
-    display: inline-block;
-}
-a{
-    text-decoration: none;
-}
 :root{
     --color-1: #2c3f4f;
     --color-1-light:#3b546d;
-    --color-2: #1abc98;
+    --color-2: rgb(26, 188, 152);
 }
 
 /* HEADER  */
-.my-list{
-    display: none;
-}
 header{
     background-color: var(--color-1);
+    z-index: 30;
 }
+.my-link{
+    color: lightgray;
+    transition: 0.2s;
+}
+.my-link:hover{
+    background-color: var(--color-2);
+    color: white;
+}
+
 
 /* MAIN */
 .star{
     color: var(--color-1);
 }
 .dash{
-    font-size: 5rem;    
+    font-size: 3em;    
 }
 
 /* jumbotron */
@@ -43,6 +41,15 @@ header{
 #portfolio{
     scroll-margin: 50px;
 }
+.plus{
+    display: none;
+    background-color: rgba(26, 188, 152, 0.7);
+    font-size: 5em;
+}
+.img-hov:hover .plus{
+    display: block;
+    cursor: pointer;
+}
 /* about */
 #about{
     background-color: var(--color-2);
@@ -55,41 +62,38 @@ header{
 }
 .submit{
     background-color: var(--color-2);
-    border: none;
     transition: 0.3s;
 }
 .submit:hover{
     background-color:#1abc35;
 }
-.my-input{
-    display: block;
-}
 .my-input > *{
-    border: none;
     border-bottom: 1px solid lightgray;
     outline: none;
 }
 
+
 /* FOOTER */
-.info{
+#info{
     background-color: var(--color-1-light);
 }
-.copyright{
+#copyright{
     background-color: var(--color-1);
 }
 .start{
     color: var(--color-2);
 }
-
-
-
-
-@media screen and (min-width:769px) {
-    .my-list{
-        display: block;
-    }
-    .hamburger{
-        display: none;
-    }
-    
+.start:hover{
+    color: var(--color-2);
+    opacity: 0.5;
 }
+.social-btn{
+    height: 40px;
+    width: 40px;
+    transition: 0.2s;
+}
+.social-btn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
